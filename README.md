@@ -17,12 +17,3 @@ pnpm build      # type-check + production build
 fas check       # platform compliance
 fas screencheck # real-browser viewport check (needs Playwright, see implementation&workflow.md)
 ```
-
-## Where to look
-
-- `CLAUDE.md`: the product spec (principles, screens, domain model, heuristics).
-- `decision.md`: every non-obvious decision and why.
-- `implementation&workflow.md`: architecture, data flow, workflow and build status.
-- `web/src/engine/`: pure, unit-tested heuristics (matrix, peaks/dips, completion stats, recommendations, summaries).
-- `web/src/storage/`: the `Store` interface, localStorage implementation, schema validation, migrations, import merge.
-- `web/src/screens/`: Today, Matrix, Habits, Insights, Settings.
