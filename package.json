@@ -1,0 +1,16 @@
+{
+  "name": "pulsestack",
+  "private": true,
+  "packageManager": "pnpm@10.30.3",
+  "engines": { "node": ">=22" },
+  "pnpm": { "onlyBuiltDependencies": ["esbuild"] },
+  "repository": { "type": "git", "url": "git+https://github.com/freeappstore-online/pulsestack.git" },
+  "scripts": {
+    "dev": "pnpm --filter @pulsestack/web dev",
+    "build": "pnpm --filter @pulsestack/web build",
+    "preview": "pnpm --filter @pulsestack/web preview",
+    "typecheck": "pnpm --filter @pulsestack/web exec tsc -b",
+    "test": "pnpm --filter @pulsestack/web exec tsc -b",
+    "test:unit": "pnpm --filter @pulsestack/web test"
+  }
+}
