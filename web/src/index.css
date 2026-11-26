@@ -1,4 +1,6 @@
 @import "tailwindcss";
+@source "../node_modules/@freeappstore/sdk/dist";
+@source "../../node_modules/@freeappstore/sdk/dist";
 
 /* Brand fonts, self-hosted (latin subset) instead of Google Fonts — decision.md D-004.
    Families: 'Manrope' (body) and 'Fraunces' (display). */
